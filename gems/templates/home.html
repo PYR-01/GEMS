@@ -1,0 +1,863 @@
+{% extends "base.html" %}
+{% load static %}
+{#-----------------Title---------------#}
+{% block title %}GEMS Consultant{% endblock %}
+{#-----------------Title-End---------------#}
+
+{#-----------------Body---------------#}
+{% block content %}
+    <!-- ===== Hero Start ===== -->
+    <div class="hero-sec" id="hero">
+        <div class="custom-container">
+            <div class="hero-inner">
+                <!-- Video Section -->
+                <div class="hero-video">
+                    <video src="{% static "video/hero-video.mp4" %}" loop muted autoplay="" playsinline=""></video>
+                </div>
+
+                <!-- Hero Top Section -->
+                <div class="hero-top">
+                    <!-- Hero Description -->
+                    <div class="hero-top-desc">
+                        <p>“Welcome to Gems Consultants, your trusted partner in navigating the vibrant world of digital
+                            marketing. We don’t just follow trends; we set them. Our passionate team of digital artisans
+                            crafts bespoke strategies that resonate with your audience and elevate your brand. Whether
+                            you’re a budding startup or a seasoned enterprise, we’re here to illuminate your path to
+                            success.</p>
+                        <p>Whether it’s building a strong online presence, crafting targeted advertising campaigns, or
+                            optimizing your digital performance, we bring the same level of passion and expertise to
+                            every project. Your growth is our priority, and your success is our mission.“</p>
+                    </div>
+                    <!-- Author Information -->
+                    {#                    <div class="author-info">#}
+                    {#                        <h4>Ahshan M</h4>#}
+                    {#                        <span>Chief Executive Officer</span>#}
+                    {#                    </div>#}
+                </div>
+
+                <!-- Hero Bottom Section -->
+                <div class="hero-bottom">
+                    <div class="left">
+                        <h2>Crafting Your </h2>
+                        <h2>Digital Success Story</h2>
+                    </div>
+                    <!-- Button Section -->
+                    <a href="/" class="theme-btn">
+                        Claim Your Free Digital Audit
+                        <img src="{% static "images/btn-arrow.svg" %}" alt="icon">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ===== Hero End ===== -->
+    <!-- ===== About Start ===== -->
+    <div class="about-sec" id="about">
+        <div class="custom-container">
+            <div class="section-header">
+                    <span class="section-subtitle">
+                        <img src="{% static "images/Union.svg" %}" alt="About Us"> About Us
+                    </span>
+                <h3 class="section-title reveal-type">
+                    At Gems Consultants, we believe that every brand has a unique story waiting to be told. Our mission
+                    is to unearth that story and amplify it across the digital landscape, creating connections that
+                    matter.<br>
+                    At Gems Consultant, we aim to innovate, strategize, and execute digital marketing solutions that
+                    deliver measurable results for businesses of all sizes.
+                    <br>
+                    To be the beacon of innovation in digital marketing, inspiring brands to shine brighter and reach
+                    further.
+                </h3>
+            </div>
+
+            <div class="funfacts-wrap">
+                <div data-aos="fade-up" class="funfact-box active">
+                    <img src="{% static "images/fun-fact1.png" %}" alt="funfact" class="overlay">
+                    <div class="funfact-header">
+                        <span class="title">Years Experience</span>
+                    </div>
+                    <div class="funfact-footer">
+                        <span class="number">12<span>+</span></span>
+                        <img src="{% static "images/angle-icon-1.svg" %}" alt="icon">
+                    </div>
+                </div>
+
+                <div data-aos="fade-up" data-aos-delay="200" class="funfact-box">
+                    <img src="{% static "images/fun-fact2.png" %}" alt="funfact" class="overlay">
+                    <div class="funfact-header">
+                        <span class="title">Completed Projects</span>
+                    </div>
+                    <div class="funfact-footer">
+                        <span class="number">25K<span>+</span></span>
+                        <img src="{% static "images/angle-icon-1.svg" %}" alt="icon">
+                    </div>
+                </div>
+
+                <div data-aos="fade-up" data-aos-delay="400" class="funfact-box">
+                    <img src="{% static "images/fun-fact3.png" %}" alt="funfact" class="overlay">
+                    <div class="funfact-header">
+                        <span class="title">Award Winning</span>
+                    </div>
+                    <div class="funfact-footer">
+                        <span class="number">110<span>+</span></span>
+                        <img src="{% static "images/angle-icon-1.svg" %}" alt="icon">
+                    </div>
+                </div>
+
+                <div data-aos="fade-up" data-aos-delay="600" class="funfact-box">
+                    <img src="{% static "images/fun-fact4.png" %}" alt="funtact" class="overlay">
+                    <div class="funfact-header">
+                        <span class="title">Satisfied Clients</span>
+                    </div>
+                    <div class="funfact-footer">
+                        <span class="number">4M<span>+</span></span>
+                        <img src="{% static "images/angle-icon-1.svg" %}" alt="icon">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ===== About End ===== -->
+
+    <!-- ===== Process Start ===== -->
+    <div class="process-sec">
+        <div class="section-header section-header2">
+                <span class="section-subtitle">
+                    <img src="{% static 'images/Union.svg' %}" alt="icon">
+                    Our Process
+                </span>
+            <h2 class="section-title section-title2">
+                Refined Process, <span>Efficient Flow</span>
+            </h2>
+        </div>
+
+        <div class="process-lists">
+            <!-- Process 1 -->
+            <div class="team-member-box process-box" data-aos="fade-up">
+                <div class="img-box">
+                    <span class="number">I.</span>
+                    <img src="{% static "images/process1.png" %}" alt="Process">
+                </div>
+                <div class="content">
+                    <span class="name">Discovery</span>
+                    {#                    <span class="designation">Driving Growth</span>#}
+                    <div class="shape"><span></span></div>
+                    <p>We start by diving deep into your brand, understanding your goals, target audience, and unique
+                        selling propositions. This phase is all about gathering insights and setting the foundation for
+                        a successful partnership.</p>
+                </div>
+            </div>
+            <!-- Process 2 -->
+            <div class="team-member-box process-box" data-aos="fade-up" data-aos-delay="200">
+                <div class="img-box">
+                    <span class="number">II.</span>
+                    <img src="{% static "images/process2.png" %}" alt="Process">
+                </div>
+                <div class="content">
+                    <span class="name">Strategy Development</span>
+                    {#                    <span class="designation">Effective Tactics</span>#}
+                    <div class="shape"><span></span></div>
+                    <p>Based on our discovery findings, we craft a tailored digital marketing strategy that aligns with
+                        your objectives. This includes selecting the right channels, defining key performance indicators
+                        (KPIs), and outlining a roadmap for success.</p>
+                </div>
+            </div>
+            <!-- Process 3 -->
+            <div class="team-member-box process-box" data-aos="fade-up" data-aos-delay="400">
+                <div class="img-box">
+                    <span class="number">III.</span>
+                    <img src="{% static "images/process3.png" %}" alt="Process">
+                </div>
+                <div class="content">
+                    <span class="name">Implementation</span>
+                    {#                    <span class="designation">Uncover Insights</span>#}
+                    <div class="shape"><span></span></div>
+                    <p>Our team of experts springs into action, executing the strategy with precision. Whether it’s
+                        optimizing your website, launching a PPC campaign, or creating engaging content, we ensure every
+                        detail is meticulously handled.</p>
+                </div>
+            </div>
+            <div class="team-member-box process-box" data-aos="fade-up" data-aos-delay="400">
+                <div class="img-box">
+                    <span class="number">IV.</span>
+                    <img src="{% static "images/process3.png" %}" alt="Process">
+                </div>
+                <div class="content">
+                    <span class="name">Monitoring & Optimization</span>
+                    {#                    <span class="designation">Uncover Insights</span>#}
+                    <div class="shape"><span></span></div>
+                    <p>Digital marketing is an ever-evolving landscape. We continuously monitor performance metrics and
+                        make data-driven adjustments to optimize campaigns for maximum impact. Your success is our
+                        priority!</p>
+                </div>
+            </div>
+            <div class="team-member-box process-box" data-aos="fade-up" data-aos-delay="400">
+                <div class="img-box">
+                    <span class="number">V.</span>
+                    <img src="{% static "images/process3.png" %}" alt="Process">
+                </div>
+                <div class="content">
+                    <span class="name">Reporting & Insights</span>
+                    {#                    <span class="designation">Uncover Insights</span>#}
+                    <div class="shape"><span></span></div>
+                    <p>Transparency is key. We provide regular reports that detail campaign performance, insights, and
+                        recommendations for future strategies. We believe in keeping you informed every step of the
+                        way.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- ===== Process End ===== -->
+    <!-- ===== Service Start ===== -->
+    <div class="service-sec" id="services">
+        <div class="custom-container">
+            <div class="section-header">
+                <!-- Section Subtitle -->
+                <span class="section-subtitle">
+                        <img src="{% static "images/Union.svg" %}" alt="icon">
+                        Our Service
+                    </span>
+                <!-- Section Title -->
+                <h3 class="section-title reveal-type">
+                    Comprehensive digital marketing services designed to grow your business in a competitive online
+                    landscape
+                </h3>
+            </div>
+        </div>
+        <div class="service-lists-wrap">
+            <div class="service-lists-header">
+                <div class="custom-container">
+                    <div class="service-header-th">
+                        <img src="{% static "images/arrow-down.svg" %}" alt="icon">
+                        Service
+                    </div>
+                    <div class="service-header-th">
+                        <img src="{% static "images/arrow-down.svg" %}" alt="icon">
+                        Features
+                    </div>
+                    <div class="service-header-th">
+                        <img src="{% static "images/arrow-down.svg" %}" alt="icon">
+                        3D Illustration
+                    </div>
+                </div>
+            </div>
+            <!-- Service Lists -->
+            <div class="service-lists">
+                <div class="service-box active ">
+                    <div class="service-inner">
+                        <h4 class="title">
+                            <img src="{% static "images/service-icon1.svg" %}" alt="icon">
+                            <a href="/">Search Engine Optimization (SEO)</a>
+                        </h4>
+                        <p class="service-feature-lists">
+                            <span>I. Technical audits </span>
+                            <span>II. Keyword research and implementation </span>
+                            <span>III. Ongoing optimization</span>
+
+                        </p>
+                        <div class="service-img-box">
+                            <img src="{% static "images/service1.png" %}" alt="Icon">
+                        </div>
+                    </div>
+                </div>
+                <div class="service-box">
+                    <div class="service-inner">
+                        <h4 class="title">
+                            <img src="{% static "images/service-icon1.svg" %}" alt="icon">
+                            <a href="/">Pay-Per-Click Advertising (PPC)</a>
+                        </h4>
+                        <p class="service-feature-lists">
+                            <span>I. Google Ads management </span>
+                            <span>II. Targeted ad campaigns </span>
+                            <span>III. Conversion rate optimization </span>
+
+                        </p>
+                        <div class="service-img-box">
+                            <img src="{% static "images/service2.png" %}" alt="icon">
+                        </div>
+                    </div>
+                </div>
+                <div class="service-box">
+                    <div class="service-inner">
+                        <h4 class="title">
+                            <img src="{% static "images/service-icon3.svg" %}" alt="icon">
+                            <a href="/">Social Media Marketing</a>
+                        </h4>
+                        <p class="service-feature-lists">
+                            <span>I. Multi-platform strategy development </span>
+                            <span>II. Creative content and advertising </span>
+                            <span>III. Community engagement </span>
+
+                        </p>
+                        <div class="service-img-box">
+                            <img src="{% static "images/service3.png" %}" alt="icon">
+                        </div>
+                    </div>
+                </div>
+                <div class="service-box">
+                    <div class="service-inner">
+                        <h4 class="title">
+                            <img src="{% static "images/service-icon4.svg" %}" alt="icon">
+                            <a href="/">Content Marketing</a>
+                        </h4>
+                        <p class="service-feature-lists">
+                            <span>I. Blogs, infographics, and video production </span>
+                            <span>II. Content strategy and performance analysis </span>
+
+                        </p>
+                        <div class="service-img-box">
+                            <img src="{% static "images/service4.png" %}" alt="icon">
+                        </div>
+                    </div>
+                </div>
+                <div class="service-box">
+                    <div class="service-inner">
+                        <h4 class="title">
+                            <img src="{% static "images/service-icon4.svg" %}" alt="icon">
+                            <a href="/">Email Marketing</a>
+                        </h4>
+                        <p class="service-feature-lists">
+                            <span>I. Automated campaigns </span>
+                            <span>II. List segmentation and targeting </span>
+                            <span>II. Performance tracking </span>
+
+                        </p>
+                        <div class="service-img-box">
+                            <img src="{% static "images/service4.png" %}" alt="icon">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ===== Service End ===== -->
+
+    <!-- ===== Values Start ===== -->
+    <div class="service-sec service-sec-2" id="services">
+        <div class="custom-container">
+            <div class="section-header">
+                <!-- Section Subtitle -->
+                <span class="section-subtitle">
+                        <img src="{% static "images/Union.svg" %}" alt="icon">
+                        WHY CHOOSE US
+                    </span>
+                <!-- Section Title -->
+                <h3 class="section-title reveal-type">
+                    Fuel Your Brand's Growth with Strategies That Deliver Results because Your Success is Our Mission!
+                </h3>
+            </div>
+        </div>
+        <div class="service-lists-wrap">
+            <div class="service-lists-header">
+                <div class="custom-container">
+                    <div class="service-header-th">
+                        <img src="{% static "images/arrow-down.svg" %}" alt="icon">
+                        3D Illustration
+                    </div>
+                    <div class="service-header-th">
+                        <img src="{% static "images/arrow-down.svg" %}" alt="icon">
+                        Reasons to Choose us
+                    </div>
+                </div>
+            </div>
+            <!-- Service Lists -->
+            <div class="service-lists">
+
+                <div class="service-box active">
+                    <div class="service-inner">
+                        <div class="service-img-box">
+                            <img src="{% static "images/service1.png" %}" alt="image">
+                        </div>
+                        <div class="service-feature-description">
+                            <h4 class="title">
+                                Custom-Crafted Strategies
+                            </h4>
+                            <p>Think of us as your digital tailors. We don’t just throw on a one-size-fits-all approach;
+                                we meticulously craft strategies that fit your brand like a glove. Every stitch is
+                                designed to align with your unique goals and aspirations.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-box">
+                    <div class="service-inner">
+                        <div class="service-img-box">
+                            <img src="{% static "images/service2.png" %}" alt="image">
+                        </div>
+                        <div class="service-feature-description">
+                            <h4 class="title">
+                                A Dream Team of Innovators
+                            </h4>
+                            <p>Our team is a vibrant tapestry of talent, each member a master in their craft. From SEO
+                                sorcerers to content wizards, we bring together diverse skills and perspectives to
+                                create a powerhouse of creativity and expertise. Together, we turn ideas into impactful
+                                realities.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-box">
+                    <div class="service-inner">
+                        <div class="service-img-box">
+                            <img src="{% static "images/service3.png" %}" alt="image">
+                        </div>
+                        <div class="service-feature-description">
+                            <h4 class="title">
+                                Data-Driven Magic
+                            </h4>
+                            <p>In the world of digital marketing, data is our crystal ball. We harness the power of
+                                analytics to guide our decisions, ensuring that every campaign is not just a shot in the
+                                dark but a calculated move toward success. With us, you’ll always know where you stand
+                                and where you’re headed.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-box">
+                    <div class="service-inner">
+                        <div class="service-img-box">
+                            <img src="{% static "images/service3.png" %}" alt="image">
+                        </div>
+                        <div class="service-feature-description">
+                            <h4 class="title">
+                                Transparent Partnerships
+                            </h4>
+                            <p>We believe in building relationships based on trust and transparency. You won’t find any
+                                smoke and mirrors here! We keep you in the loop with regular updates, insights, and open
+                                discussions, making you an integral part of the journey.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-box">
+                    <div class="service-inner">
+                        <div class="service-img-box">
+                            <img src="{% static "images/service3.png" %}" alt="image">
+                        </div>
+                        <div class="service-feature-description">
+                            <h4 class="title">
+                                Proven Alchemy of Results
+                            </h4>
+                            <p>Our track record is a treasure chest of success stories. We’ve transformed challenges
+                                into triumphs for countless clients, turning clicks into customers and ideas into
+                                revenue. With Gems Consultants, you’re not just choosing a service; you’re investing in
+                                a partnership that delivers results.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-box">
+                    <div class="service-inner">
+                        <div class="service-img-box">
+                            <img src="{% static "images/service3.png" %}" alt="image">
+                        </div>
+                        <div class="service-feature-description">
+                            <h4 class="title">
+                                Ongoing Support & Growth
+                            </h4>
+                            <p>Our commitment to your success doesn’t end with a project launch. We’re in it for the
+                                long haul, providing continuous support and optimization to ensure your digital presence
+                                evolves and thrives. Think of us as your digital co-pilots, navigating the ever-changing
+                                landscape together.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-box">
+                    <div class="service-inner">
+                        <div class="service-img-box">
+                            <img src="{% static "images/service3.png" %}" alt="image">
+                        </div>
+                        <div class="service-feature-description">
+                            <h4 class="title">
+                                Passionate Storytellers
+                            </h4>
+                            <p> At our core, we are storytellers. We believe that every brand has a narrative waiting to
+                                be told. Our mission is to help you articulate your story in a way that resonates with
+                                your audience, creating connections that go beyond transactions and foster loyalty.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- ===== Values End ===== -->
+    <!-- ===== Team Start ===== -->
+    <div class="team-sec" id="team">
+        <div class="section-header">
+                <span class="section-subtitle">
+                    <img src="{% static "images/Union.svg" %}" alt="icon">
+                   LATEST ARTICLES
+                </span>
+        </div>
+        <div class="team-members">
+            <!-- Team Member 1 -->
+            <div class="team-member-box" data-aos="fade-up">
+                <div class="img-box">
+                    <img src="{% static "images/team1.png" %}" alt="team-img">
+                </div>
+                <div class="content">
+                    <span class="name">The Ultimate Guide to Digital Marketing</span>
+                    {#                    <span class="designation">Creative Director</span>#}
+                    <div class="shape"><span></span></div>
+                    <p>Digital marketing encompasses a wide range of strategies and channels that allow businesses to
+                        connect with their target audience online.</p>
+                </div>
+            </div>
+
+            <!-- Team Member 2 -->
+            <div class="team-member-box" data-aos="fade-up" data-aos-delay="200">
+                <div class="img-box">
+                    <img src="{% static "images/team2.png" %}" alt="team-img">
+                </div>
+                <div class="content">
+                    <span class="name">Mastering Social Media Marketing</span>
+                    {#                    <span class="designation">Lead Designer</span>#}
+                    <div class="shape"><span></span></div>
+                    <p>Social media has become an integral part of marketing strategies for businesses of all sizes.
+                        With billions of users worldwide, platforms like Facebook, Instagram, Twitter, LinkedIn, and
+                        TikTok offer unparalleled opportunities for brands to connect with their audience, build
+                        relationships, and drive sales.</p>
+                </div>
+            </div>
+
+            <!-- Team Member 3 -->
+            <div class="team-member-box" data-aos="fade-up" data-aos-delay="400">
+                <div class="img-box">
+                    <img src="{% static "images/team3.png" %}" alt="team-img">
+                </div>
+                <div class="content">
+                    <span class="name">SEO Best Practices for 2024</span>
+                    {#                    <span class="designation">Senior Developer</span>#}
+                    <div class="shape"><span></span></div>
+                    <p>Search Engine Optimization (SEO) is a critical component of digital marketing that helps
+                        businesses improve their online visibility and attract organic traffic.</p>
+                </div>
+            </div>
+
+            <!-- Team Member 4 -->
+            <div class="team-member-box" data-aos="fade-up">
+                <div class="img-box">
+                    <img src="{% static "images/team4.png" %}" alt="team-img">
+                </div>
+                <div class="content">
+                    <span class="name">Effective Content Marketing Strategies for 2024</span>
+                    {#                    <span class="designation">Project Manager</span>#}
+                    <div class="shape"><span></span></div>
+                    <p>Content marketing has become a cornerstone of digital marketing, allowing brands to connect with
+                        their audience, build trust, and drive conversions.</p>
+                </div>
+            </div>
+
+            <!-- Team Member 5 -->
+            <div class="team-member-box" data-aos="fade-up" data-aos-delay="200">
+                <div class="img-box">
+                    <img src="{% static "images/team5.png" %}" alt="team-img">
+                </div>
+                <div class="content">
+                    <span class="name">Email Marketing Strategies for 2024</span>
+                    {#                    <span class="designation">Lead Visual</span>#}
+                    <div class="shape"><span></span></div>
+                    <p>Email marketing remains one of the most effective channels for reaching and engaging customers.
+                        With a high return on investment (ROI) and the ability to deliver personalized content directly
+                        to your audience’s inbox.</p>
+                </div>
+            </div>
+            <!-- Team Member 6 -->
+            <div class="team-member-box" data-aos="fade-up" data-aos-delay="200">
+                <div class="img-box">
+                    <img src="{% static "images/team5.png" %}" alt="team-img">
+                </div>
+                <div class="content">
+                    <span class="name">Social Media Marketing Strategies for 2024</span>
+                    {#                    <span class="designation">Lead Visual</span>#}
+                    <div class="shape"><span></span></div>
+                    <p>Social media has transformed the way businesses connect with their audiences, making it an
+                        essential component of any marketing strategy. With the rapid evolution of platforms and user
+                        behavior, staying ahead of the curve is crucial for success.</p>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <!-- ===== Team End ===== -->
+
+    <!-- ===== Pricing Start ===== -->
+    <div class="pricing-sec" id="pricing">
+        <div class="custom-container">
+            <div class="section-header section-header2">
+                    <span class="section-subtitle">
+                        <img src="{% static "images/Union.svg" %}" alt="icon">
+                        PRICING PLANS
+                    </span>
+                <h2 class="section-title section-title2">
+                    Flexible Plans, <span>Powerful Results</span>
+                </h2>
+                <p class="section-desc">
+                    Whether you're a startup looking for a boost or an established brand aiming to elevate your
+                    presence,<br>
+                    we have a plan that fits your goals and budget.
+                </p>
+            </div>
+
+            <div class="pricing_nav_wrap">
+                <ul class="pricing_nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="monthly-tab" data-bs-toggle="tab" data-bs-target="#monthly"
+                                type="button" role="tab" aria-controls="monthly" aria-selected="true">Monthly
+                        </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="annual-tab" data-bs-toggle="tab" data-bs-target="#annual"
+                                type="button" role="tab" aria-controls="annual" aria-selected="false">Annual
+                            <span>-20%</span></button>
+                    </li>
+                </ul>
+                <span class="nav-hover-shape" style="left: 439px; opacity: 1;">
+                        <img src="{% static "images/pricing-navbar.svg" %}" alt="shape">
+                    </span>
+            </div>
+
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="monthly" role="tabpanel" aria-labelledby="monthly-tab">
+                    <div class="pricing-lists">
+                        <div class="shape_img shape_img1">
+                            <img src="{% static "images/pricing-shape1.png" %}" alt="shape">
+                        </div>
+                        <div class="shape_img shape_img2">
+                            <img src="{% static "images/pricing-shape2.png" %}" alt="shape">
+                        </div>
+                        <div class="pricing-box" data-aos="fade-up">
+                            <div class="pricing-header">
+                                <span class="title">Starter Plan</span>
+                                <h3 class="price">$3.500<span>/month</span></h3>
+                                <p class="content">
+                                    <span class="required">*</span>Services Provided
+                                </p>
+                                <ul class="feature-lists">
+                                    <li><span class="icon"><i class="las la-check"></i></span> Monthly performance
+                                        reports
+                                    </li>
+                                    <li><span class="icon"><i class="las la-check"></i></span> Email support
+                                    </li>
+                                    <li><span class="icon"><i class="las la-check"></i></span> Basic SEO and social
+                                        media setup
+                                    </li>
+
+                                </ul>
+                            </div>
+                            <div class="pricing-footer">
+                                <a href="#" class="theme-btn">
+                                    Let's Start Now <img src="{% static "images/btn-arrow.svg" %}" alt="icon">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="pricing-box" data-aos="fade-up" data-aos-delay="200">
+                                <span class="pricing-featured-icon">
+                                    <img src="{% static "images/featured-icon.svg" %}" alt="icon">
+                                </span>
+                            <div class="pricing-header">
+                                <span class="title">Growth Plan</span>
+                                <h3 class="price">$6.500<span>/month</span></h3>
+                                <p class="content">
+                                    <span class="required">*</span> Services Provided
+                                </p>
+                                <ul class="feature-lists">
+                                    <li><span class="icon"><i class="las la-check"></i></span> Advanced SEO and keyword
+                                        strategy
+                                    </li>
+                                    <li><span class="icon"><i class="las la-check"></i></span>Blog creation and content
+                                        marketing
+
+                                    </li>
+                                    <li><span class="icon"><i class="las la-check"></i></span>Social media management
+                                    </li>
+
+                                </ul>
+                            </div>
+                            <div class="pricing-footer">
+                                <a href="/" class="theme-btn">
+                                    Let's Start Now <img src="{% static "images/btn-arrow.svg" %}" alt="icon">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="pricing-box" data-aos="fade-up" data-aos-delay="200">
+                                <span class="pricing-featured-icon">
+                                    <img src="{% static "images/featured-icon.svg" %}" alt="icon">
+                                </span>
+                            <div class="pricing-header">
+                                <span class="title">Enterprise Plan</span>
+                                <h3 class="price">Custom Pricing<span></span></h3>
+                                <p class="content">
+                                    <span class="required">*</span> Services Provided
+                                </p>
+                                <ul class="feature-lists">
+                                    <li><span class="icon"><i class="las la-check"></i></span> Full-service digital
+                                        marketing
+                                    </li>
+                                    <li><span class="icon"><i class="las la-check"></i></span>Dedicated account manager
+
+                                    </li>
+                                    <li><span class="icon"><i class="las la-check"></i></span>Comprehensive analytics
+                                    </li>
+
+                                </ul>
+                            </div>
+                            <div class="pricing-footer">
+                                <a href="/" class="theme-btn">
+                                    Let's Start Now <img src="{% static "images/btn-arrow.svg" %}" alt="icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="annual" role="tabpanel" aria-labelledby="annual-tab">
+                    <div class="pricing-lists">
+                        <div class="shape_img shape_img1">
+                            <img src="{% static "images/pricing-shape1.png" %}" alt="shape">
+                        </div>
+                        <div class="shape_img shape_img2">
+                            <img src="{% static "images/pricing-shape2.png" %}" alt="shape">
+                        </div>
+                        <div class="pricing-box" data-aos="fade-up">
+                            <div class="pricing-header">
+                                <span class="title">Starter Plan</span>
+                                <h3 class="price">$3.500<span>/month</span></h3>
+                                <p class="content">
+                                    <span class="required">*</span>Services Provided
+                                </p>
+                                <ul class="feature-lists">
+                                    <li><span class="icon"><i class="las la-check"></i></span> Monthly performance
+                                        reports
+                                    </li>
+                                    <li><span class="icon"><i class="las la-check"></i></span> Email support
+                                    </li>
+                                    <li><span class="icon"><i class="las la-check"></i></span> Basic SEO and social
+                                        media setup
+                                    </li>
+
+                                </ul>
+                            </div>
+                            <div class="pricing-footer">
+                                <a href="#" class="theme-btn">
+                                    Let's Start Now <img src="{% static "images/btn-arrow.svg" %}" alt="icon">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="pricing-box" data-aos="fade-up" data-aos-delay="200">
+                                <span class="pricing-featured-icon">
+                                    <img src="{% static "images/featured-icon.svg" %}" alt="icon">
+                                </span>
+                            <div class="pricing-header">
+                                <span class="title">Growth Plan</span>
+                                <h3 class="price">$6.500<span>/month</span></h3>
+                                <p class="content">
+                                    <span class="required">*</span> Services Provided
+                                </p>
+                                <ul class="feature-lists">
+                                    <li><span class="icon"><i class="las la-check"></i></span> Advanced SEO and keyword
+                                        strategy
+                                    </li>
+                                    <li><span class="icon"><i class="las la-check"></i></span>Blog creation and content
+                                        marketing
+
+                                    </li>
+                                    <li><span class="icon"><i class="las la-check"></i></span>Social media management
+                                    </li>
+
+                                </ul>
+                            </div>
+                            <div class="pricing-footer">
+                                <a href="/" class="theme-btn">
+                                    Let's Start Now <img src="{% static "images/btn-arrow.svg" %}" alt="icon">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="pricing-box" data-aos="fade-up" data-aos-delay="200">
+                                <span class="pricing-featured-icon">
+                                    <img src="{% static "images/featured-icon.svg" %}" alt="icon">
+                                </span>
+                            <div class="pricing-header">
+                                <span class="title">Enterprise Plan</span>
+                                <h3 class="price">Custom Pricing<span></span></h3>
+                                <p class="content">
+                                    <span class="required">*</span> Services Provided
+                                </p>
+                                <ul class="feature-lists">
+                                    <li><span class="icon"><i class="las la-check"></i></span> Full-service digital
+                                        marketing
+                                    </li>
+                                    <li><span class="icon"><i class="las la-check"></i></span>Dedicated account manager
+
+                                    </li>
+                                    <li><span class="icon"><i class="las la-check"></i></span>Comprehensive analytics
+                                    </li>
+
+                                </ul>
+                            </div>
+                            <div class="pricing-footer">
+                                <a href="/" class="theme-btn">
+                                    Let's Start Now <img src="{% static "images/btn-arrow.svg" %}" alt="icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ===== Pricing End ===== -->
+
+
+
+    <!-- ===== Contact Start ===== -->
+    <div class="contact-sec" id="contact">
+        <div class="custom-row">
+            <div class="left">
+                <div class="contact-content">
+                    <h3 data-aos="fade-up" class="aos-init aos-animate">Let's Build Your<span> Digital Future Together.</span></h3>
+                    <p>
+                        <span class="required">*</span> Whether you have a question, or want to discuss a potential
+                        project, our team at <br>Gems Consultant is here to help. Please fill out the form below!!!
+                    </p>
+                    <form id="contact-form" action="assets/mail/mailer.php" method="POST" class="contact-form">
+                        <div class="input-group">
+                            <input type="text" name="name" placeholder="Name" required>
+                        </div>
+
+                        <div class="col-2">
+                            <div class="input-group">
+                                <input type="email" name="email" placeholder="E-mail" required>
+                            </div>
+                            <div class="input-group">
+                                <input type="text" name="phone" placeholder="Phone">
+                            </div>
+                        </div>
+                        <div class="input-group">
+                            <textarea name="message" id="message" placeholder="Message" required></textarea>
+                        </div>
+                        <div class="input-group">
+                            <button type="submit" class="theme-btn">
+                                Send Message
+                                <img src="{% static "images/btn-arrow.svg" %}" alt="icon">
+                            </button>
+                        </div>
+                    </form>
+                    <div id="result"></div>
+                </div>
+            </div>
+            <div class="right">
+                <div class="img-box">
+                    <img src="{% static "images/contact.png" %}" alt="contact-img">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ===== Contact End ===== -->
+
+ 
+{% endblock %}
+{#-----------------Body-End---------------#}
+
+{#-----------------Script---------------#}
+{% block js %}
+{% endblock %}
+{#-----------------Script-End---------------#}
+
